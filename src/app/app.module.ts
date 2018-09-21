@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DriverComponent } from './components/driver/driver.component';
+import { UserComponent } from './components/user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DriverComponent
+    DriverComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule
